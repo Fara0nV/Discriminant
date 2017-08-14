@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class SquareRoot {
     public static void main(String[] args) {
+           // code
         Scanner s = new Scanner(System.in);
         System.out.println("Введите значения a,b,c");
         double a, b, c;
@@ -21,7 +22,7 @@ public class SquareRoot {
             double x;
             x = -b / (2 * a);
         } else {
-            System.out.println("Уравнение не имеет корня квадратного");
+            System.out.println("Уравнение не имеет корня квадратного !!!");
         }
     }
 }
